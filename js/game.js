@@ -145,7 +145,7 @@ function init_continue(){
 	var memory_time = poker_point.length/2+1;
 	ready2start(memory_time);
 	//延时后重新翻转所有牌
-	var timeout = setTimeout(hideALL, memory_time * 1000);
+	var timeout = setTimeout(opeALL, memory_time * 10);
 	
 	//disappear("poker_5");
 }
